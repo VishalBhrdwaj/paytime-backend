@@ -1,6 +1,6 @@
 const express=require("express");
 const { authMiddleware } = require("../middleware");
-const { Account, History } = require("../DB");
+const { Account, History } = require("../databasefile");
 const mongoose=require("mongoose")
 const router=express.Router();
 
